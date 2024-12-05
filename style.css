@@ -13,7 +13,7 @@
   .bg-hero{
     border-top-left-radius: 60%;
     position: absolute;
-    
+    width: 745px;
   }
   .manrope-small {
     font-family: "Manrope", sans-serif;
@@ -22,3 +22,8 @@
     font-style: normal;
   }
   
+  @media only screen and (max-width: 467px) {
+    .bg-hero{
+      width: 100%;   
+    }
+  }
